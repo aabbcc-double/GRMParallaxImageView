@@ -13,6 +13,7 @@
 		BAC2F3781E77020A00365893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC2F3761E77020A00365893 /* Main.storyboard */; };
 		BAC2F37A1E77020A00365893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC2F3791E77020A00365893 /* Assets.xcassets */; };
 		BAC2F37D1E77020A00365893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC2F37B1E77020A00365893 /* LaunchScreen.storyboard */; };
+		BAC2F3861E77027200365893 /* GRMParallaxImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F3851E77027200365893 /* GRMParallaxImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BAC2F3791E77020A00365893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAC2F37C1E77020A00365893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAC2F37E1E77020A00365893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC2F3841E77027200365893 /* GRMParallaxImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMParallaxImageView.h; sourceTree = "<group>"; };
+		BAC2F3851E77027200365893 /* GRMParallaxImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRMParallaxImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				BAC2F37B1E77020A00365893 /* LaunchScreen.storyboard */,
 				BAC2F37E1E77020A00365893 /* Info.plist */,
 				BAC2F36D1E77020A00365893 /* Supporting Files */,
+				BAC2F3841E77027200365893 /* GRMParallaxImageView.h */,
+				BAC2F3851E77027200365893 /* GRMParallaxImageView.m */,
 			);
 			path = GRMParallaxImageView;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				BAC2F3751E77020A00365893 /* ViewController.m in Sources */,
 				BAC2F3721E77020A00365893 /* AppDelegate.m in Sources */,
+				BAC2F3861E77027200365893 /* GRMParallaxImageView.m in Sources */,
 				BAC2F36F1E77020A00365893 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
